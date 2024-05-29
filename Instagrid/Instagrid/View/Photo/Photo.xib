@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Photo" customModule="Instagrid" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="qWw-W6-3gQ"/>
+                <outlet property="photo" destination="xLI-6N-fDu" id="PEK-uz-B1u"/>
+                <outlet property="plus" destination="Z9L-rW-dWU" id="Fes-Dz-eX0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="UIButton">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Plus" translatesAutoresizingMaskIntoConstraints="NO" id="Z9L-rW-dWU">
+                    <rect key="frame" x="187" y="428" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="jxV-2W-d5J"/>
+                        <constraint firstAttribute="width" secondItem="Z9L-rW-dWU" secondAttribute="height" multiplier="1:1" id="vqA-at-wYX"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xLI-6N-fDu" userLabel="photo">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="xLI-6N-fDu" secondAttribute="bottom" id="0QV-2j-L9A"/>
+                <constraint firstItem="Z9L-rW-dWU" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="83H-hX-kle"/>
+                <constraint firstAttribute="trailing" secondItem="xLI-6N-fDu" secondAttribute="trailing" id="UG1-Y4-3PN"/>
+                <constraint firstItem="Z9L-rW-dWU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="nxq-Fy-g1z"/>
+                <constraint firstItem="xLI-6N-fDu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="uEj-xr-KBU"/>
+                <constraint firstItem="xLI-6N-fDu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wcP-zE-pwr"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <action selector="showImagePicker:" destination="-1" eventType="valueChanged" id="G0O-q2-jGL"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="113.83928571428571"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Plus" width="13.5" height="13.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

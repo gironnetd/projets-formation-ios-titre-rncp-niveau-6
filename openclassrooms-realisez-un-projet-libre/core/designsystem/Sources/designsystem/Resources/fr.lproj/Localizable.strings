@@ -1,0 +1,34 @@
+"twitter_signin" = "S'authentifier avec Twitter";
+"google_signin" = "S'authentifier avec Google";
+"facebook_signin" = "S'authentifier avec Facebook";
+"create_an_account" = "Créer un compte";
+"sign_in" = "S'authentifier";
+
+"type_email" = "Entrez votre email";
+"invalid_email" = "Email invalide";
+"type_username" = "Entrez votre nom d'utilisateur";
+"type_password" = "Entrez votre mot de passe";
+"set_password" = "Saisissez votre mot de passe";
+
+"reading_list" = "Liste de lecture";
+"list_name" = "Nom de la liste";
+"description" = "Description (optionel)";
+"create_bookmark_group" = "Créer une nouvelle liste";
+"update_bookmark_group" = "Mettre à jour la liste";
+"bookmarks" = "favoris";
+"add_a_note" = "Ajouter une note";
+"update_note" = "Modifier la note";
+"delete_from_list" = "Supprimer";
+"edit_list_info" = "Editer\t\t ";
+"add_a_brief_description" = "Ajouter une brève description";
+"faiths" = "Courants";
+"centuries" = "Siècles";
+"authors" = "Auteurs";
+"books" = "Livres";
+"authors_and_books" = "Auteurs & Livres";
+"all" = "Tous";
+
+"on_device" = "Sur votre appareil";
+"from_account" = "Depuis votre compte";
+"shared" = "Partagée sur l'appareil et votre compte";
+"on_account" = "Sur votre compte";

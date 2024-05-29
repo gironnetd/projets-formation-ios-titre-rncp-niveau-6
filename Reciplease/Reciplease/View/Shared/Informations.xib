@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Informations" customModule="Reciplease" customModuleProvider="target">
+            <connections>
+                <outlet property="calories" destination="N9u-eb-QL4" id="aWt-eb-bhn"/>
+                <outlet property="caloriesImage" destination="Ck0-fT-isf" id="7Ki-5L-3Ra"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="Jxw-Ib-ceX"/>
+                <outlet property="time" destination="yj3-Ut-WuZ" id="ZDo-Sq-NMK"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="78" height="61"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p1L-GJ-lmz">
+                    <rect key="frame" x="0.0" y="0.0" width="78" height="61"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qtU-DF-u5i">
+                            <rect key="frame" x="2" y="2" width="74" height="57"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="hAU-eA-cSs">
+                                    <rect key="frame" x="4" y="4" width="41" height="49"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="0 cal " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9u-eb-QL4" userLabel="0 cal">
+                                            <rect key="frame" x="0.0" y="0.0" width="41" height="20.5"/>
+                                            <accessibility key="accessibilityConfiguration" hint="Number of calories of the recipe" label="Number of calories"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 m " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yj3-Ut-WuZ">
+                                            <rect key="frame" x="0.0" y="28.5" width="41" height="20.5"/>
+                                            <accessibility key="accessibilityConfiguration" hint="Time to prepare the recipe" label="Time to prepare the recipe"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="POB-rx-SJX">
+                                    <rect key="frame" x="49" y="4" width="21" height="49"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="hand.thumbsup.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ck0-fT-isf">
+                                            <rect key="frame" x="0.0" y="-0.5" width="21" height="21"/>
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <accessibility key="accessibilityConfiguration" hint="Calories Icon" label="Calories Icon">
+                                                <bool key="isElement" value="YES"/>
+                                            </accessibility>
+                                        </imageView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="IfE-eM-EN2">
+                                            <rect key="frame" x="0.0" y="29.5" width="21" height="19"/>
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <accessibility key="accessibilityConfiguration" hint="Time Icon" label="Time Icon">
+                                                <bool key="isElement" value="YES"/>
+                                            </accessibility>
+                                        </imageView>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.32281640169999998" green="0.29296150799999998" blue="0.2899671197" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="hAU-eA-cSs" firstAttribute="leading" secondItem="qtU-DF-u5i" secondAttribute="leading" constant="4" id="0Bx-Va-0Az"/>
+                                <constraint firstAttribute="bottom" secondItem="hAU-eA-cSs" secondAttribute="bottom" constant="4" id="4tH-k3-N6O"/>
+                                <constraint firstItem="hAU-eA-cSs" firstAttribute="top" secondItem="qtU-DF-u5i" secondAttribute="top" constant="4" id="85a-bt-c8Y"/>
+                                <constraint firstItem="POB-rx-SJX" firstAttribute="leading" secondItem="hAU-eA-cSs" secondAttribute="trailing" constant="4" id="EKL-JN-1Q0"/>
+                                <constraint firstAttribute="trailing" secondItem="POB-rx-SJX" secondAttribute="trailing" constant="4" id="P25-9Q-aqf"/>
+                                <constraint firstAttribute="bottom" secondItem="POB-rx-SJX" secondAttribute="bottom" constant="4" id="V2B-ut-Zhg"/>
+                                <constraint firstItem="POB-rx-SJX" firstAttribute="top" secondItem="qtU-DF-u5i" secondAttribute="top" constant="4" id="ucM-fv-POe"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="qtU-DF-u5i" secondAttribute="trailing" constant="2" id="CLm-Kk-gXu"/>
+                        <constraint firstItem="qtU-DF-u5i" firstAttribute="leading" secondItem="p1L-GJ-lmz" secondAttribute="leading" constant="2" id="DAU-JM-uh5"/>
+                        <constraint firstAttribute="bottom" secondItem="qtU-DF-u5i" secondAttribute="bottom" constant="2" id="Ka5-2f-6Ym"/>
+                        <constraint firstItem="qtU-DF-u5i" firstAttribute="top" secondItem="p1L-GJ-lmz" secondAttribute="top" constant="2" id="LaU-HD-url"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="p1L-GJ-lmz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="CqS-bd-qiS"/>
+                <constraint firstAttribute="bottom" secondItem="p1L-GJ-lmz" secondAttribute="bottom" id="RDQ-X5-WNb"/>
+                <constraint firstAttribute="trailing" secondItem="p1L-GJ-lmz" secondAttribute="trailing" id="VK9-rn-5uA"/>
+                <constraint firstItem="p1L-GJ-lmz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="YCn-oB-JhJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-524.63768115942037" y="-199.88839285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="clock" catalog="system" width="128" height="121"/>
+        <image name="hand.thumbsup.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

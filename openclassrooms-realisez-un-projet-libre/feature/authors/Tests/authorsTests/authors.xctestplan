@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "99921D54-24A3-4882-9341-60BAB4DD013B",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "authorsTests",
+        "name" : "authorsTests"
+      }
+    }
+  ],
+  "version" : 1
+}

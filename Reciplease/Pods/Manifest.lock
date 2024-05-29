@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.6.2)
+  - Kingfisher (6.3.1)
+  - Mocker (2.5.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher (~> 6.3.1)
+  - Mocker (~> 2.5.4)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - Mocker
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  Mocker: 8c731a8104962f246cadf2b02556218e9edc1390
+
+PODFILE CHECKSUM: 17ffcb61d8d5810f4f88ad0af570119456b40f00
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Damien Gironnet on 04/04/2023.
+  
+*/
+
+"bookmarks" = "Favoris";
+
+"authenticate_to_access_bookmarks" = "S'authentifier pour accéder aux favoris";
+"log_in" = "se connecter";
+
+"save_to" = "Enregistrer dans";
+"done" = "Ajouter";
+"create_bookmark" = "Créer une nouvelle liste...";
+"your_library" = "Votre bibliothèque";
+"new_list" = "Nouvelle liste";
+"quotes_boormarked" = " citations";
+"pictures_boormarked" = " images";
+"biograpghies_boormarked" = " biographies";
+"undefined" = "Indéfini";

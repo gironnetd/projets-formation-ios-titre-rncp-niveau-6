@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Damien Gironnet on 09/03/2023.
+  
+*/
+
+"emailAlreadyInUse" = "This email is already in use";
+"invalidEmail" = "the email you entered is invalid";
+"userNotFound" = "The user is not found";
+"networkError" = "There is a problem with the connection";
+"weakPassword" = "The password you entered is too weak";
+"missingEmail" = "You forget to specify your email";
+"wrongPassword" = "The password you entered is wrong";
+"unknownError" = "The authentication failed";

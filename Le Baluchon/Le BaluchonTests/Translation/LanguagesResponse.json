@@ -1,0 +1,66 @@
+{
+    "data": {
+        "languages": [
+            {
+                "language": "tg"
+            },
+            {
+                "language": "th"
+            },
+            {
+                "language": "ti"
+            },
+            {
+                "language": "tk"
+            },
+            {
+                "language": "tl"
+            },
+            {
+                "language": "tr"
+            },
+            {
+                "language": "ts"
+            },
+            {
+                "language": "tt"
+            },
+            {
+                "language": "ug"
+            },
+            {
+                "language": "uk"
+            },
+            {
+                "language": "ur"
+            },
+            {
+                "language": "uz"
+            },
+            {
+                "language": "vi"
+            },
+            {
+                "language": "xh"
+            },
+            {
+                "language": "yi"
+            },
+            {
+                "language": "yo"
+            },
+            {
+                "language": "zh"
+            },
+            {
+                "language": "zh-CN"
+            },
+            {
+                "language": "zh-TW"
+            },
+            {
+                "language": "zu"
+            }
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+format_version: "11"
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+project_type: other
+workflows:
+  primary:
+    steps:
+    - activate-ssh-key@4:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@8: {}
+#    - xcode-test@5.0:
+#        is_always_run: true
+#        inputs:
+#        - project_path: ./OnelittleAngel.xcworkspace
+#        - scheme: mobile
+    - xcode-archive@5:
+        inputs:
+        - scheme: mobile
+        - automatic_code_signing: api-key
+        - distribution_method: app-store
+        - project_path: ./OnelittleAngel.xcworkspace
+    - deploy-to-bitrise-io@2: {}
+    - cache-pull@2:
+        is_always_run: true
+    - cache-push@2:
+        is_always_run: true
+meta:
+  bitrise.io:
+    stack: osx-xcode-15.0.x
+    machine_type_id: g2-m1.4core

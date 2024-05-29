@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "96CCA07C-6E7E-45CA-BF61-049FF2C1266F",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "domainTests",
+        "name" : "domainTests"
+      }
+    }
+  ],
+  "version" : 1
+}

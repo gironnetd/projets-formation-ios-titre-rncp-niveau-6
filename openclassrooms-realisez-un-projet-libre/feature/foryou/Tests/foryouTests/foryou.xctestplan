@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "207F5AA6-6C61-47BD-9CBC-061B1E0420D9",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "foryouTests",
+        "name" : "foryouTests"
+      }
+    }
+  ],
+  "version" : 1
+}

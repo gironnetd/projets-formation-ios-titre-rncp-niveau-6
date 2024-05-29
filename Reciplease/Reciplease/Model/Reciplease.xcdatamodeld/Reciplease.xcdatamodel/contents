@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H2026" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Ingredient" representedClassName=".Ingredient" syncable="YES">
+        <attribute name="food" attributeType="String"/>
+        <attribute name="text" attributeType="String"/>
+    </entity>
+    <entity name="Recipe" representedClassName=".Recipe" syncable="YES">
+        <attribute name="calories" attributeType="Double" usesScalarValueType="YES"/>
+        <attribute name="imageUrl" attributeType="String"/>
+        <attribute name="label" attributeType="String"/>
+        <attribute name="totalTime" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalWeight" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="url" attributeType="String"/>
+        <relationship name="ingredients" toMany="YES" deletionRule="Nullify" destinationEntity="Ingredient"/>
+    </entity>
+    <elements>
+        <element name="Ingredient" positionX="-54" positionY="0" width="128" height="73"/>
+        <element name="Recipe" positionX="-63" positionY="-18" width="128" height="148"/>
+    </elements>
+</model>

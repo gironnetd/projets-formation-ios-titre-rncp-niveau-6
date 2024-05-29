@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ThirstySoftRegular.otf">
+            <string>ThirstySoftRegular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Instagrid View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController modalPresentationStyle="overFullScreen" id="BYZ-38-t0r" customClass="InstagridViewController" customModule="Instagrid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text=" Instagrid " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4s-mq-sSz">
+                                <rect key="frame" x="16" y="16" width="288" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="O4s-mq-sSz" secondAttribute="height" multiplier="362:28" id="HVE-LJ-RgU"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
+                                <fontDescription key="fontDescription" name="ThirstySoftRegular" family="Thirsty Soft" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="HVE-LJ-RgU"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="HVE-LJ-RgU"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="HVE-LJ-RgU"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="UKk-hp-eqg" customClass="Disposition" customModule="Instagrid" customModuleProvider="target">
+                                <rect key="frame" x="38" y="178" width="244" height="244"/>
+                                <color key="backgroundColor" red="0.062745098040000002" green="0.40000000000000002" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="UKk-hp-eqg" secondAttribute="height" multiplier="1:1" id="ueX-Jc-txO"/>
+                                </constraints>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="ueX-Jc-txO"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="ueX-Jc-txO"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCR-60-5fA" customClass="SwipeLabel" customModule="Instagrid" customModuleProvider="target">
+                                <rect key="frame" x="58" y="138.5" width="204" height="31.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Swipe up  to share">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" metaFont="system" size="26"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="26"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontFamily" value="Delm-Medium"/>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <attributedString key="attributedText">
+                                        <fragment content="Swipe left  to share">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <font key="NSFont" metaFont="system" size="26"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <attributedString key="attributedText">
+                                        <fragment content="Swipe left  to share">
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <font key="NSFont" metaFont="system" size="26"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </variation>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="YtU-qR-ggg" userLabel="Arrangements">
+                                <rect key="frame" x="38" y="442" width="244" height="55.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wtT-wW-zOX" userLabel="FirstArrangement" customClass="Arrangement" customModule="Instagrid" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="55.5" height="55.5"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="image" value="Layout 1"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isArrangementSelected" value="NO"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="selectDispositions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6fb-1b-izn"/>
+                                        </connections>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AOi-YW-WvG" userLabel="SecondArrangement" customClass="Arrangement" customModule="Instagrid" customModuleProvider="target">
+                                        <rect key="frame" x="94.5" y="0.0" width="55" height="55.5"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="image" value="Layout 2"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isArrangementSelected" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="selectDispositions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Qd-zg-6xj"/>
+                                        </connections>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="arG-Sw-kdj" userLabel="ThirdArrangement" customClass="Arrangement" customModule="Instagrid" customModuleProvider="target">
+                                        <rect key="frame" x="188.5" y="0.0" width="55.5" height="55.5"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="image" value="Layout 3"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isArrangementSelected" value="NO"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="selectDispositions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fml-A2-Zwx"/>
+                                        </connections>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="YtU-qR-ggg" secondAttribute="height" multiplier="22:5" id="71x-Ts-lIo"/>
+                                </constraints>
+                                <variation key="heightClass=compact-widthClass=compact" axis="vertical" distribution="fillProportionally">
+                                    <mask key="constraints">
+                                        <exclude reference="71x-Ts-lIo"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular" axis="vertical" distribution="fillProportionally">
+                                    <mask key="constraints">
+                                        <exclude reference="71x-Ts-lIo"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Arrow Up" translatesAutoresizingMaskIntoConstraints="NO" id="cCa-WS-PtX">
+                                <rect key="frame" x="148" y="106.5" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="bG2-um-xBu"/>
+                                    <constraint firstAttribute="width" secondItem="cCa-WS-PtX" secondAttribute="height" multiplier="1:1" id="f0X-lD-CUt"/>
+                                </constraints>
+                                <variation key="heightClass=compact-widthClass=compact" image="Arrow Left">
+                                    <mask key="constraints">
+                                        <include reference="bG2-um-xBu"/>
+                                        <include reference="f0X-lD-CUt"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular" image="Arrow Left">
+                                    <mask key="constraints">
+                                        <include reference="bG2-um-xBu"/>
+                                        <include reference="f0X-lD-CUt"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="AccentColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="YtU-qR-ggg" firstAttribute="bottom" secondItem="UKk-hp-eqg" secondAttribute="bottom" id="1u6-oa-gds"/>
+                            <constraint firstItem="UKk-hp-eqg" firstAttribute="top" secondItem="O4s-mq-sSz" secondAttribute="bottomMargin" constant="8" id="2bj-L1-ewY"/>
+                            <constraint firstItem="UKk-hp-eqg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="16" id="6Zc-iw-QfR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UKk-hp-eqg" secondAttribute="trailing" constant="38" id="6pf-im-l3W"/>
+                            <constraint firstItem="O4s-mq-sSz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7UL-Ro-k6W"/>
+                            <constraint firstItem="YtU-qR-ggg" firstAttribute="trailing" secondItem="UKk-hp-eqg" secondAttribute="trailing" id="Aqy-FK-65g"/>
+                            <constraint firstItem="UKk-hp-eqg" firstAttribute="leading" secondItem="kCR-60-5fA" secondAttribute="trailing" constant="16" id="Bg8-6p-MMh"/>
+                            <constraint firstItem="kCR-60-5fA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HXI-ls-Jfu"/>
+                            <constraint firstItem="cCa-WS-PtX" firstAttribute="centerX" secondItem="kCR-60-5fA" secondAttribute="centerX" id="LBW-Ng-iob"/>
+                            <constraint firstItem="YtU-qR-ggg" firstAttribute="leading" secondItem="UKk-hp-eqg" secondAttribute="leading" id="Mfk-G7-Geq"/>
+                            <constraint firstItem="O4s-mq-sSz" firstAttribute="centerX" secondItem="UKk-hp-eqg" secondAttribute="centerX" id="MgN-vG-PJg"/>
+                            <constraint firstItem="O4s-mq-sSz" firstAttribute="trailing" secondItem="YtU-qR-ggg" secondAttribute="trailing" id="QQI-3h-0ZD"/>
+                            <constraint firstItem="YtU-qR-ggg" firstAttribute="top" secondItem="UKk-hp-eqg" secondAttribute="bottom" constant="20" id="Qd2-se-OyE"/>
+                            <constraint firstItem="O4s-mq-sSz" firstAttribute="leading" secondItem="kCR-60-5fA" secondAttribute="leading" id="as0-Io-2pV"/>
+                            <constraint firstItem="O4s-mq-sSz" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="hZN-Gj-W3d"/>
+                            <constraint firstItem="O4s-mq-sSz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="htQ-fu-4fx"/>
+                            <constraint firstItem="kCR-60-5fA" firstAttribute="centerY" secondItem="UKk-hp-eqg" secondAttribute="centerY" id="jvh-tb-NhC"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="UKk-hp-eqg" secondAttribute="bottom" constant="16" id="lAg-K3-vfG"/>
+                            <constraint firstItem="kCR-60-5fA" firstAttribute="top" secondItem="cCa-WS-PtX" secondAttribute="bottom" constant="8" id="r6Q-4O-hId"/>
+                            <constraint firstItem="YtU-qR-ggg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v8p-vA-6II"/>
+                            <constraint firstItem="YtU-qR-ggg" firstAttribute="top" secondItem="UKk-hp-eqg" secondAttribute="top" id="ydY-j5-rgz"/>
+                            <constraint firstItem="UKk-hp-eqg" firstAttribute="top" secondItem="kCR-60-5fA" secondAttribute="bottom" constant="8" id="zVd-ft-nlt"/>
+                            <constraint firstItem="UKk-hp-eqg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="zdU-0B-cKo"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7UL-Ro-k6W"/>
+                                <exclude reference="QQI-3h-0ZD"/>
+                                <exclude reference="as0-Io-2pV"/>
+                                <exclude reference="jvh-tb-NhC"/>
+                                <exclude reference="2bj-L1-ewY"/>
+                                <exclude reference="Bg8-6p-MMh"/>
+                                <exclude reference="lAg-K3-vfG"/>
+                                <exclude reference="1u6-oa-gds"/>
+                                <exclude reference="ydY-j5-rgz"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="6pf-im-l3W"/>
+                                <include reference="7UL-Ro-k6W"/>
+                                <include reference="QQI-3h-0ZD"/>
+                                <include reference="as0-Io-2pV"/>
+                                <exclude reference="HXI-ls-Jfu"/>
+                                <include reference="jvh-tb-NhC"/>
+                                <include reference="r6Q-4O-hId"/>
+                                <include reference="2bj-L1-ewY"/>
+                                <exclude reference="6Zc-iw-QfR"/>
+                                <include reference="Bg8-6p-MMh"/>
+                                <include reference="lAg-K3-vfG"/>
+                                <exclude reference="zVd-ft-nlt"/>
+                                <exclude reference="zdU-0B-cKo"/>
+                                <include reference="1u6-oa-gds"/>
+                                <exclude reference="Aqy-FK-65g"/>
+                                <exclude reference="Mfk-G7-Geq"/>
+                                <exclude reference="Qd2-se-OyE"/>
+                                <exclude reference="v8p-vA-6II"/>
+                                <include reference="ydY-j5-rgz"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <exclude reference="6pf-im-l3W"/>
+                                <include reference="7UL-Ro-k6W"/>
+                                <include reference="QQI-3h-0ZD"/>
+                                <include reference="as0-Io-2pV"/>
+                                <exclude reference="HXI-ls-Jfu"/>
+                                <include reference="jvh-tb-NhC"/>
+                                <include reference="r6Q-4O-hId"/>
+                                <include reference="2bj-L1-ewY"/>
+                                <exclude reference="6Zc-iw-QfR"/>
+                                <include reference="Bg8-6p-MMh"/>
+                                <include reference="lAg-K3-vfG"/>
+                                <exclude reference="zVd-ft-nlt"/>
+                                <exclude reference="zdU-0B-cKo"/>
+                                <include reference="1u6-oa-gds"/>
+                                <exclude reference="Aqy-FK-65g"/>
+                                <exclude reference="Mfk-G7-Geq"/>
+                                <exclude reference="Qd2-se-OyE"/>
+                                <exclude reference="v8p-vA-6II"/>
+                                <include reference="ydY-j5-rgz"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="qQl-KJ-Zzp" appends="YES" id="twC-dR-1ok"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="disposition" destination="UKk-hp-eqg" id="C2c-EB-9I6"/>
+                        <outlet property="firstArrangement" destination="wtT-wW-zOX" id="pCw-oR-MMe"/>
+                        <outlet property="secondArrangement" destination="AOi-YW-WvG" id="n9w-3v-CFn"/>
+                        <outlet property="thirdArrangement" destination="arG-Sw-kdj" id="WCj-1y-pZ6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="qQl-KJ-Zzp"/>
+            </objects>
+            <point key="canvasLocation" x="126.16822429906541" y="110.15118790496761"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="kCR-60-5fA">
+            <size key="intrinsicContentSize" width="204" height="31.5"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="Arrow Left" width="3.5" height="4.5"/>
+        <image name="Arrow Up" width="4.5" height="3.5"/>
+        <image name="Layout 1" width="27" height="27"/>
+        <image name="Layout 2" width="27" height="27"/>
+        <image name="Layout 3" width="27" height="27"/>
+        <namedColor name="AccentColor">
+            <color red="0.71799999475479126" green="0.84299999475479126" blue="0.89399999380111694" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

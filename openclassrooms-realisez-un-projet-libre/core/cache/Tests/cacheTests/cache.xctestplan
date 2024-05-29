@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "42CD1E04-3B15-4C53-9174-EAA8428B2CD0",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:..\/cache",
+        "identifier" : "cacheTests",
+        "name" : "cacheTests"
+      }
+    }
+  ],
+  "version" : 1
+}

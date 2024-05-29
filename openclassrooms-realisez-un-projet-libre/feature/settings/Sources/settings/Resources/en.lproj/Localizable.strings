@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Damien Gironnet on 04/04/2023.
+  
+*/
+
+"settings" = "Settings";
+
+"theme" = "Theme";
+"blue" = "blue";
+"orange" = "orange";
+"garnet" = "garnet";
+"green" = "green";
+
+"dark_mode_preference" = "Display preference";
+"system_default" = "System default";
+"light" = "Light";
+"dark" = "Dark";
+
+"user_login" = "User account";
+"no_user_logged_in" = "No users logged in";

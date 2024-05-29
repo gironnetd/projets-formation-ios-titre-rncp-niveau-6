@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "DB946DD0-D403-4063-9933-3091C9A5FEF5",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "faithsTests",
+        "name" : "faithsTests"
+      }
+    }
+  ],
+  "version" : 1
+}

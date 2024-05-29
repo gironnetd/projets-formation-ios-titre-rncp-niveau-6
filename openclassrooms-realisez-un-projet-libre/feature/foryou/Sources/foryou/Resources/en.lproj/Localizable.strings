@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Damien Gironnet on 05/04/2023.
+  
+*/
+
+"foryou" = "For you";
+"foryou_quote" = "Quotes of the Day";
+"foryou_picture" = "Picture of the Day";
+"foryou_biography" = "Biography of the Day";
+"see_all" = "See all";

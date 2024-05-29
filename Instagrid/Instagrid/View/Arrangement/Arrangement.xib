@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Arrangement" customModule="Instagrid" customModuleProvider="target">
+            <connections>
+                <outlet property="arrangement" destination="TZw-9U-kSS" id="05x-BV-3FH"/>
+                <outlet property="arrangementSelected" destination="H5G-B4-QeT" id="qjk-sM-Evt"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="QdT-9o-qcc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TZw-9U-kSS" userLabel="arrangement">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="TZw-9U-kSS" secondAttribute="height" multiplier="1:1" id="DPB-x0-00N"/>
+                    </constraints>
+                </imageView>
+                <imageView hidden="YES" clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Selected" translatesAutoresizingMaskIntoConstraints="NO" id="H5G-B4-QeT" userLabel="arrangementSelected">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="TZw-9U-kSS" secondAttribute="bottom" id="APP-9G-QxA"/>
+                <constraint firstItem="TZw-9U-kSS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FN4-P5-WjT"/>
+                <constraint firstItem="H5G-B4-QeT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GEc-6Y-eyB"/>
+                <constraint firstItem="TZw-9U-kSS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="RfX-25-Y0v"/>
+                <constraint firstAttribute="bottom" secondItem="H5G-B4-QeT" secondAttribute="bottom" id="SWB-hg-GOc"/>
+                <constraint firstAttribute="trailing" secondItem="TZw-9U-kSS" secondAttribute="trailing" id="nLf-z5-cxH"/>
+                <constraint firstAttribute="trailing" secondItem="H5G-B4-QeT" secondAttribute="trailing" id="u5M-DK-XzX"/>
+                <constraint firstItem="H5G-B4-QeT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wsW-xH-2Vy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-110.14492753623189" y="-135.26785714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Selected" width="27" height="27"/>
+    </resources>
+</document>

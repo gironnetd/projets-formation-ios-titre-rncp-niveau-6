@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1EE9505B-FA84-430F-9AB4-4F0674861C8B"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E26A2B5B-15CB-491E-92AE-823FC82CA38C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipleaseTests/SearchServiceTestCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "test_GIVEN_Not_Nil_Request_WHEN_Retrieve_Data_THEN_Result_Is_Correct()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E26A2B5B-15CB-491E-92AE-823FC82CA38C - fd8e5ede646e9551"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipleaseTests.SearchServiceTestCase.test_GIVEN_Not_Nil_Request_WHEN_Retrieve_Data_THEN_Result_Is_Correct() throws -&gt; ()"
+                  moduleName = "RecipleaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/damien/Documents/OpenClassrooms/iOS/Dev_iOS_2022/Projet_10_Creez_l_application_Reciplease_pour_de_bons_petits_plats/Reciplease/RecipleaseTests/SearchServiceTestCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1311">
+               </Location>
+               <Location
+                  uuid = "E26A2B5B-15CB-491E-92AE-823FC82CA38C - f0a7710680481fb0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Reciplease.Recipe&gt;&gt;, Swift.Optional&lt;Reciplease.NetworkError&gt;) -&gt; () in RecipleaseTests.SearchServiceTestCase.test_GIVEN_Not_Nil_Request_WHEN_Retrieve_Data_THEN_Result_Is_Correct() throws -&gt; ()"
+                  moduleName = "RecipleaseTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/damien/Documents/OpenClassrooms/iOS/Dev_iOS_2022/Projet_10_Creez_l_application_Reciplease_pour_de_bons_petits_plats/Reciplease/RecipleaseTests/SearchServiceTestCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB0362BB-1AD8-462F-B4BD-A6005E747C3F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipleaseTests/SearchServiceTestCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "test_GIVEN_Not_Nil_Request_WHEN_Retrieve_Data_THEN_Result_Is_Correct()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "8918839F-3351-4C9B-B1CE-91C9CD87FFA2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F2CBDE4-0A85-4421-AF84-DA94B3599B39"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipleaseTests/SearchServiceTestCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "test_GIVEN_Not_Nil_Request_WHEN_Retrieve_Data_THEN_Result_Is_Correct()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E58DE759-E81F-4757-9376-86F6B2727074"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipleaseTests/RecipeControllerTestCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "test_GIVEN_New_Recipe_WHEN_Save_Recipe_THEN_Operation_Is_Successful()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3337995D-D3F3-419C-9DF3-8EC9447D11D0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipleaseTests/FavoriteServiceTestCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "test_GIVEN_New_Recipe_WHEN_Save_Recipe_THEN_Operation_Is_Successful()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF20CB37-401E-4727-8CB1-C738402CF46A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipleaseTests/FavoriteServiceTestCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "test_GIVEN_New_Recipe_WHEN_Save_Recipe_THEN_Operation_Is_Successful()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
